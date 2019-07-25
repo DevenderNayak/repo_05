@@ -21,9 +21,7 @@ import io.cucumber.datatable.DataTable;
 
 
 public class Stepdefs {
-
-WebDriver driver;
-
+	
 	private WebDriver driver;
 	static int numberOfProducts; 
 	@Given("Alex is on the login page")
